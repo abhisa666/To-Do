@@ -1,0 +1,56 @@
+.login-container{
+    /* position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    border: solid black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 50%;
+}
+
+.form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.form-group{
+    width: 100%;
+}
+
+.btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.head{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    padding: 1rem;
+}
+
+
+.img{
+    background: no-repeat url(./task.svg) ;
+    background-size: cover;
+    height: 30rem ;
+    width: 40rem;
+}
+
+.out-container{
+    height: 100%;
+}
